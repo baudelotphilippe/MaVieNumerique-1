@@ -1,5 +1,11 @@
 <!-- cmd terminal  -->
 
+pwd                                 <!-- ou suis-je ? -->
+cd                                  <!-- Retour fichier source -->
+cd ..                               <!-- Retour de 1 -->
+cd ../..                            <!-- Retour de 2 et + -->
+cd {nomfichier}                     <!-- Avance vers fichier -->
+
 <!-- Action sur repository -->
 git clone *url*                     <!-- Chope depuis github jusqu'a fichier locaux depuis un url -->
 git init                            <!-- Nouveau repo attention dans quel fichier on est -->
